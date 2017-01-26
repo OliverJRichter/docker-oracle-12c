@@ -14,5 +14,5 @@ EXPOSE 8080
 VOLUME ["/u01/app/oracle"]
 VOLUME ["/docker-entrypoint-initdb.d"]
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 CMD [""]
